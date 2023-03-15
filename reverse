@@ -1,0 +1,20 @@
+#include <iostream>
+#include <bits/stdc++.h>
+#include <cmath>
+#include <algorithm>
+#include <sstream>  // for string streams
+#include <string>
+using namespace std;
+
+int main() {
+
+    long long n; cin >> n;
+    while(n%10==0){
+        n/=10;
+    }
+
+    string s= to_string(n);
+    std::reverse(s.begin(), s.end());
+    cout<<s;
+    return 0;
+}
