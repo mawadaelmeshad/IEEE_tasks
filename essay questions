@@ -1,0 +1,29 @@
+1-What is the difference between Front-end and Back-end?
+ans:Frontend refers to the user interface of a website that users interact with,Backend refers to the server-side of the websitethat users do not see.
+
+2-What do you know about the following: arrays, strings, linked lists, and hash tables?
+ans: arrays:store multiple data of similar type 
+strings : array of chars
+linked lists: store multiple data of different types 
+hash tables:maps keys(unique) to values
+
+3-Do you know Sequential Search? If yes, Implement it.
+ans: yes 
+if we are going to search about n and we know that it is between 1 and 100
+
+int n;  cin>>n;
+for(int i=1;i<100;i++){
+  if(i==n){
+  cout<<"Found";
+  }
+}
+
+4-Do you know Binary Search? If yes, Implement it.
+yes 
+int n;  cin>>n;
+for(int i=1;i<100;i++){
+int value=50;
+  if(n>50){
+  i=51;
+  }
+}
